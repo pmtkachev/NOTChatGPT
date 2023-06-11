@@ -1,0 +1,32 @@
+{
+    "orders": [
+        {
+            "item": "Notebook",
+            "quantity": 1,
+            "price": 45000,
+            "buyer": "Anonim",
+            "date": "09.06.2023"
+        },
+        {
+            "item": "Phone",
+            "quantity": 2,
+            "price": 5000,
+            "buyer": "Anonim",
+            "date": "10.06.2023"
+        },
+        {
+            "item": "Xerox",
+            "quantity": 1,
+            "price": 15000,
+            "buyer": "Anonim",
+            "date": "12.12.2022"
+        },
+        {
+            "item": "Принтер",
+            "quantity": 1,
+            "price": 15000,
+            "buyer": "Аноним",
+            "date": "12.12.2022"
+        }
+    ]
+}
