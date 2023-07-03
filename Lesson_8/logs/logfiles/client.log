@@ -318,3 +318,60 @@ dsvsdvsd
 2023-07-03 20:39:18,584 DEBUG client.py Вызвана функция create_presence с параметрами ('e',), {} из модуля __main__. Из функции main.
 2023-07-03 20:39:18,585 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=428, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52792), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688405958.5829492, 'user': {'account_name': 'e'}}), {} из модуля common.utils. Из функции main.
 2023-07-03 20:41:26,745 ERROR client.py Не удалось декодировать полученную Json строку.
+2023-07-03 20:45:44,200 DEBUG client.py Вызвана функция arg_parser с параметрами (), {} из модуля __main__. Из функции main.
+2023-07-03 20:45:44,200 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Anonim
+2023-07-03 20:45:44,201 DEBUG client.py Сформировано presence сообщение для пользователя Anonim
+2023-07-03 20:45:44,203 DEBUG client.py Вызвана функция create_presence с параметрами ('Anonim',), {} из модуля __main__. Из функции main.
+2023-07-03 20:45:44,204 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52808), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688406344.20138, 'user': {'account_name': 'Anonim'}}), {} из модуля common.utils. Из функции main.
+2023-07-03 20:45:44,795 DEBUG client.py Вызвана функция arg_parser с параметрами (), {} из модуля __main__. Из функции main.
+2023-07-03 20:45:44,796 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Guest
+2023-07-03 20:45:44,798 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2023-07-03 20:45:44,799 DEBUG client.py Вызвана функция create_presence с параметрами ('Guest',), {} из модуля __main__. Из функции main.
+2023-07-03 20:45:44,800 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52809), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688406344.7980185, 'user': {'account_name': 'Guest'}}), {} из модуля common.utils. Из функции main.
+2023-07-03 20:45:45,815 ERROR client.py Не удалось декодировать полученную Json строку.
+2023-07-03 20:53:14,770 DEBUG client.py Вызвана функция arg_parser с параметрами (), {} из модуля __main__. Из функции main.
+2023-07-03 20:53:14,771 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Anonim
+2023-07-03 20:53:14,772 DEBUG client.py Сформировано presence сообщение для пользователя Anonim
+2023-07-03 20:53:14,773 DEBUG client.py Вызвана функция create_presence с параметрами ('Anonim',), {} из модуля __main__. Из функции main.
+2023-07-03 20:53:14,774 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688406794.7720878, 'user': {'account_name': 'Anonim'}}), {} из модуля common.utils. Из функции main.
+2023-07-03 20:53:15,355 DEBUG client.py Вызвана функция arg_parser с параметрами (), {} из модуля __main__. Из функции main.
+2023-07-03 20:53:15,355 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, имя пользователя: Guest
+2023-07-03 20:53:15,356 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2023-07-03 20:53:15,357 DEBUG client.py Вызвана функция create_presence с параметрами ('Guest',), {} из модуля __main__. Из функции main.
+2023-07-03 20:53:15,358 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1688406795.3564467, 'user': {'account_name': 'Guest'}}), {} из модуля common.utils. Из функции main.
+2023-07-03 20:53:15,359 DEBUG client.py Вызвана функция get_message с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>,), {} из модуля common.utils. Из функции main.
+2023-07-03 20:53:15,359 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-03 20:53:15,360 DEBUG client.py Вызвана функция process_ans с параметрами ({'response': 200},), {} из модуля __main__. Из функции main.
+2023-07-03 20:53:15,360 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-03 20:53:15,362 DEBUG client.py Запущены процессы
+2023-07-03 20:53:16,372 DEBUG client.py Вызвана функция get_message с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>,), {} из модуля common.utils. Из функции main.
+2023-07-03 20:53:16,372 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2023-07-03 20:53:16,375 DEBUG client.py Вызвана функция process_ans с параметрами ({'response': 200},), {} из модуля __main__. Из функции main.
+2023-07-03 20:53:16,375 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-07-03 20:53:16,378 DEBUG client.py Запущены процессы
+2023-07-03 20:53:31,212 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1688406811.211994, 'sender': 'Guest', 'mess_text': 'Hi', 'to': 'Anonim'}
+2023-07-03 20:53:31,233 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1688406811.211994, 'sender': 'Guest', 'mess_text': 'Hi', 'to': 'Anonim'}), {} из модуля common.utils. Из функции create_message.
+2023-07-03 20:53:31,233 INFO client.py Отправлено сообщение для пользователя Anonim
+2023-07-03 20:53:31,234 DEBUG client.py Вызвана функция create_message с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>, 'Guest'), {} из модуля __main__. Из функции user_interactive.
+2023-07-03 20:53:31,521 DEBUG client.py Вызвана функция get_message с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>,), {} из модуля common.utils. Из функции message_from_server.
+2023-07-03 20:53:31,522 INFO client.py Получено сообщение от пользователя Guest:
+Hi
+2023-07-03 20:53:48,207 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1688406828.2070293, 'sender': 'Anonim', 'mess_text': 'Hello', 'to': 'Guest'}
+2023-07-03 20:53:48,209 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'time': 1688406828.2070293, 'sender': 'Anonim', 'mess_text': 'Hello', 'to': 'Guest'}), {} из модуля common.utils. Из функции create_message.
+2023-07-03 20:53:48,210 INFO client.py Отправлено сообщение для пользователя Guest
+2023-07-03 20:53:48,211 DEBUG client.py Вызвана функция create_message с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>, 'Anonim'), {} из модуля __main__. Из функции user_interactive.
+2023-07-03 20:53:48,670 DEBUG client.py Вызвана функция get_message с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>,), {} из модуля common.utils. Из функции message_from_server.
+2023-07-03 20:53:48,671 INFO client.py Получено сообщение от пользователя Anonim:
+Hello
+2023-07-03 20:53:59,652 DEBUG client.py Вызвана функция exit_message с параметрами ('Guest',), {} из модуля __main__. Из функции user_interactive.
+2023-07-03 20:53:59,654 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1688406839.6500938, 'account_name': 'Guest'}), {} из модуля common.utils. Из функции user_interactive.
+2023-07-03 20:53:59,654 INFO client.py Завершение работы по команде пользователя.
+2023-07-03 20:53:59,742 CRITICAL client.py Потеряно соединение с сервером.
+2023-07-03 20:53:59,745 DEBUG threading.py Вызвана функция message_from_server с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>, 'Guest'), {} из модуля __main__. Из функции run.
+2023-07-03 20:54:00,159 DEBUG threading.py Вызвана функция user_interactive с параметрами (<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52841), raddr=('127.0.0.1', 7777)>, 'Guest'), {} из модуля __main__. Из функции run.
+2023-07-03 20:54:01,711 DEBUG client.py Вызвана функция exit_message с параметрами ('Anonim',), {} из модуля __main__. Из функции user_interactive.
+2023-07-03 20:54:01,713 DEBUG client.py Вызвана функция send_message с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1688406841.7099607, 'account_name': 'Anonim'}), {} из модуля common.utils. Из функции user_interactive.
+2023-07-03 20:54:01,714 INFO client.py Завершение работы по команде пользователя.
+2023-07-03 20:54:01,750 CRITICAL client.py Потеряно соединение с сервером.
+2023-07-03 20:54:01,751 DEBUG threading.py Вызвана функция message_from_server с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>, 'Anonim'), {} из модуля __main__. Из функции run.
+2023-07-03 20:54:02,230 DEBUG threading.py Вызвана функция user_interactive с параметрами (<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52840), raddr=('127.0.0.1', 7777)>, 'Anonim'), {} из модуля __main__. Из функции run.

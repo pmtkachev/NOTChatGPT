@@ -1,16 +1,12 @@
 import argparse
-import json
 import socket
 import sys
-import time
-
 import select
-
 import logs.configs.server_cnf
 from logging import getLogger
 from decos import log
 
-from Lesson_8.common.variables import ACTION, PRESENCE, TIME, USER, ACC_NAME, RESPONSE, ERROR, \
+from Lesson_8.common.variables import ACTION, PRESENCE, TIME, USER, ACC_NAME, ERROR, \
     DEF_PORT, DEF_IP_ADR, MAX_CON, MESSAGE, MESS_TEXT, SENDER, RESP_200, RESP_400, DEST, EXIT
 from Lesson_8.common.utils import get_message, send_message
 
@@ -96,7 +92,7 @@ def main():
     clients = []
     messages = []
 
-    names = {}
+    names = dict()
 
     transport.listen(MAX_CON)
     while True:
@@ -122,7 +118,7 @@ def main():
             for client_with_message in recv_data_lst:
                 try:
                     proc_client_message(get_message(client_with_message),
-                                        messages, client_with_message)
+                                        messages, client_with_message, clients, names)
                 except:
                     SERVER_LOGGER.info(f'Клиент {client_with_message.getpeername()} '
                                        f'отключился от сервера.')
