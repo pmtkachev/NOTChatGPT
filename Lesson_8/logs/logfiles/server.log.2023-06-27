@@ -1,0 +1,5 @@
+2023-06-25 12:58:35,285 INFO server.py Сервер запущен
+2023-06-25 12:58:38,351 INFO server.py Установлено соединение с клиентом ('127.0.0.1', 53583)
+2023-06-25 12:58:38,377 DEBUG server.py Получено сообщение от клиента: {'action': 'presence', 'time': 1687687118.3514037, 'user': {'account_name': 'Anonim'}}
+2023-06-25 12:58:38,377 DEBUG server.py Разбор сообщения от клиента
+2023-06-25 12:58:38,402 DEBUG server.py Вызвана функция proc_client_message с параметрами ({'action': 'presence', 'time': 1687687118.3514037, 'user': {'account_name': 'Anonim'}},), {} из модуля __main__. Из функции main
